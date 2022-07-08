@@ -1,0 +1,24 @@
+{
+    "name": "DarkHive",
+    "is_dark": true,
+    "colors": {
+        "accent-color": "#F5BD1F",
+        "primary-color": "#FFDD00",
+        "warning-color": "#FBC403",
+
+        "sidebar-color": "#020F14",
+        "roomlist-background-color": "#011232",
+        "roomlist-highlights-color": "#1E2D50",
+        "roomlist-separator-color": "#051928",
+        "roomlist-text-color": "#FFD76F",
+        "roomlist-text-secondary-color": "#FFEAA9",
+
+        "timeline-background-color": "#051928",
+        "timeline-highlights-color": "#011232",
+        "timeline-text-color": "#FFEAA9",
+        "secondary-content": "#FFEAA9",
+        "tertiary-content": "#FFEAA9",
+        "timeline-text-secondary-color": "#A79001",
+        "reaction-row-button-selected-bg-color": "#FFD76F"
+    }
+}
