@@ -1,5 +1,6 @@
 {
     "branding": {
+        "welcome_background_url": "https://chat.beehivez.io/themes/element/img/backgrounds/bees.jpg"
     },
     "default_server_config": {
         "m.homeserver": {
