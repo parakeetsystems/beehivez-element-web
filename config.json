@@ -12,7 +12,7 @@
             "base_url": "https://vector.im"
         }
     },
-    "hide_auth_server_selector": true,
+    "disable_homeserver_selection": true,
     "disable_custom_urls": true,
     "disable_guests": false,
     "disable_login_language_selector": false,
