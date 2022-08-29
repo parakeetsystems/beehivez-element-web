@@ -5,7 +5,7 @@
     },
    "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://localhost:8481/",
+            "base_url": "https://matrix.beehivez.io/",
             "server_name": "matrix.beehivez.io"
         },
         "m.identity_server": {
