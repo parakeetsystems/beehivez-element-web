@@ -1,20 +1,23 @@
 {
     "branding": {
+        "welcome_background_url": "https://chat.beehivez.io/themes/element/img/backgrounds/bees.jpg",
+        "auth_header_logo_url": "themes/element/img/logos/BeeHivezLogo.svg"
     },
-    "default_server_config": {
+   "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://matrix-client.matrix.org",
-            "server_name": "matrix.org"
+            "base_url": "https://matrix.beehivez.io/",
+            "server_name": "matrix.beehivez.io"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
         }
     },
-    "disable_custom_urls": false,
+    "disable_homeserver_selection": true,
+    "disable_custom_urls": true,
     "disable_guests": false,
     "disable_login_language_selector": false,
     "disable_3pid_login": false,
-    "brand": "ASD",
+    "brand": "BeeHivez",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_widgets_urls": [
@@ -32,7 +35,7 @@
         "feature_custom_themes": true
     },
     "default_federate": true,
-    "default_theme": "light",
+    "default_theme": "custom-darkhive",
     "room_directory": {
         "servers": [
             "matrix.org"
@@ -43,7 +46,32 @@
         "https://matrix-client.matrix.org": false
     },
     "setting_defaults": {
-        "breadcrumbs": true
+        "breadcrumbs": true,
+        "custom_themes": [
+            {
+                "name": "darkhive",
+                "is_dark": true,
+                "colors":
+                {
+                    "accent-color": "#F5BD1F",
+                    "primary-color": "#FFDD00",
+                    "warning-color": "#FBC403",
+                    "sidebar-color": "#020F14",
+                    "roomlist-background-color": "#011232",
+                    "roomlist-highlights-color": "#1E2D50",
+                    "roomlist-separator-color": "#051928",
+                    "roomlist-text-color": "#FFD76F",
+                    "roomlist-text-secondary-color": "#FFEAA9",
+                    "timeline-background-color": "#051928",
+                    "timeline-highlights-color": "#011232",
+                    "timeline-text-color": "#FFEAA9",
+                    "secondary-content": "#FFEAA9",
+                    "tertiary-content": "#FFEAA9",
+                    "timeline-text-secondary-color": "#A79001",
+                    "reaction-row-button-selected-bg-color": "#FFD76F"
+                }
+            }
+        ]
     },
     "jitsi": {
         "preferred_domain": "meet.element.io"
